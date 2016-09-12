@@ -1,1 +1,1 @@
-import Intercom from './intercom.jsx';
+import Intercom from './index.jsx';
