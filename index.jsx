@@ -11,6 +11,7 @@ var Intercom = React.createClass({
     fetch('https://api.intercom.io/tags', {
       method: 'GET',
       mode: 'no-cors',
+      credentials: 'include',
       cache: 'default',
       headers: new Headers({
         'Authorization': 'Basic <PAT>',
