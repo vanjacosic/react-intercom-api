@@ -4,6 +4,7 @@ I get a `401` or `406` from Intercom when I try to authenticate against the priv
 
 # Reproduce
 
+1. Go to [Intercom](http://app.intercom.io) and get a Personal Access Token (aka. `<PAT>`)
 1. Clone repo
 1. Run `npm install`
 1. Run `webpack-dev-server --progress --colors`
